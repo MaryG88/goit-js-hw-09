@@ -16,3 +16,147 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+
+  background-color: #fafafa;
+ 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 360px;
+   
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px;
+padding: 24px;
+border-radius: 8px;
+width: 408px;
+height: 296px;
+background-color: #fff;
+}
+
+.form {
+
+gap: 8px;
+width: 360px;
+
+}
+
+.back-link {
+width: 80px;
+/* margin-left: 16px; */
+margin-bottom: 16px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.back-link:hover,
+.back-link:focus {
+ color: blue;
+}
+
+.feedback-form label {
+font-family: "Montserrat", sans-serif;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.input {
+  padding-left: 8px;
+  margin-bottom: 8px;
+  width: 360px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:hover,
+.input:focus {
+  border-color: rgb(26, 25, 25);
+}
+
+.textarea {
+  padding-left: 8px;
+  padding-top: 8px;
+  margin-bottom: 16px;
+  width: 360px;
+  height: 80px;
+  resize: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea:hover,
+.textarea:focus {
+  border-color: rgb(26, 25, 25);
+}
+
+.btn {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 8px;
+border: none;
+padding: 8px 16px;
+min-width: 95px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: #4e75ff;
+
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #6c8cff;
+}
