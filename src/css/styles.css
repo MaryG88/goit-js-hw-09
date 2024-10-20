@@ -105,6 +105,7 @@ gap: 8px;
 }
 
 .input {
+  font-family: "Montserrat", sans-serif;
   padding-left: 8px;
   margin-bottom: 8px;
   width: 360px;
@@ -118,6 +119,7 @@ gap: 8px;
 }
 
 .textarea {
+  font-family: "Montserrat", sans-serif;
   padding-left: 8px;
   padding-top: 8px;
   margin-bottom: 16px;
